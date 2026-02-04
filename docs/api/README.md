@@ -1,3 +1,7 @@
+**tinky-theme**
+
+---
+
 # tinky-theme
 
 **The flexible, type-safe theming engine for Tinky**

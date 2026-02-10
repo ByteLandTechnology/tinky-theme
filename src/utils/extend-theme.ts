@@ -1,4 +1,4 @@
-import { merge } from "lodash";
+import lodash from "lodash";
 import { Theme } from "../contexts/ThemeContext";
 
 /**
@@ -21,5 +21,5 @@ import { Theme } from "../contexts/ThemeContext";
  * @public
  */
 export const extendTheme = (originalTheme: Theme, newTheme: Theme) => {
-  return merge({}, originalTheme, newTheme);
+  return lodash.merge({}, originalTheme, newTheme);
 };

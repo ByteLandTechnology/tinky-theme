@@ -1,4 +1,4 @@
-import { merge } from "lodash";
+import lodash from "lodash";
 import { useContext, useMemo } from "react";
 import { ComponentTheme, ThemeContext } from "../contexts/ThemeContext.js";
 import { resolveStyles } from "../utils/resolve-styles.js";
@@ -52,7 +52,7 @@ export function useComponentTheme<P>(
     // 3. If an override exists, perform a deep merge.
     // Strategy: User configuration overrides the component's default configuration.
     // Use merge({}, ...) to avoid mutating the original defaultTheme.
-    const mergedTheme = merge({}, defaultTheme, overrideTheme);
+    const mergedTheme = lodash.merge({}, defaultTheme, overrideTheme);
 
     return resolveStyles(mergedTheme, props);
   }, [componentName, defaultTheme, globalTheme, props]);

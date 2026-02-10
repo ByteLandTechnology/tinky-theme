@@ -1,6 +1,6 @@
 {
   "name": "tinky-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The flexible, type-safe, and slot-based theming engine for Tinky",
   "keywords": [
     "react",

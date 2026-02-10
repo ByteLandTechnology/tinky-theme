@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/ByteLandTechnology/tinky-theme/compare/v1.0.0...v1.0.1) (2026-02-10)
+
+### 🐛 Bug Fixes
+
+- **theme:** use default import for lodash to resolving merge error ([1ae8997](https://github.com/ByteLandTechnology/tinky-theme/commit/1ae899712d0294813341e5b5915f953672d23ecc))
+
 ## 1.0.0 (2026-02-04)
 
 ### ✨ Features
